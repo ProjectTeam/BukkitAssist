@@ -49,7 +49,7 @@ public class Main extends JavaPlugin{
 		}
 		
 		else if (cmdLabel.equalsIgnoreCase(com.projectteam.bukkitassist.command.Command.VERSION.getCommandName())){
-			sender.sendMessage(ChatColor.GOLD + "Verion " + this.getDescription().getVersion());
+			sender.sendMessage(ChatColor.GOLD + "Version " + this.getDescription().getVersion());
 			return true;
 		}
 		return true;
