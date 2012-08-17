@@ -2,4 +2,8 @@ name: BukkitAssist
 version: 1.0
 main: com.projectteam.bukkitassist.Main
 author: emericask8ur
-description: SideKick's Economy System. Including a developer API.
+description: Bukkit/Minecraft API.
+commands:
+  BukkitAssist:
+   description: Version
+   usage: /BukkitAssist
